@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'QuiteChocolatey';
+    src: url(fonts/Quite_Chocolatey.eot) format('embedded-opentype'),
+         url(fonts/Quite_Chocolatey.ttf) format('ttf'),
+         url(fonts/Quite_Chocolatey.woff) format('woff');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+/* .clearfix {
+    clear: both;
+} */
+
+.container {
+    width: 100%;
+    max-width: 991px;
+    margin: 0 auto;
+}
+
+/* ------------------
+        Header
+ -------------------*/
+.header {
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'QuiteChocolatey';
+    color: #d03958;
+    font-size: 88px;
+    letter-spacing: -1.2px;
+ }
+
+
