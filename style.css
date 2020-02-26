@@ -21,12 +21,27 @@
 }
 
 /* ------------------
+        Main
+ ------------------- */
+.main {
+    background-image: url(img/Group_1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.wrapper {
+    background-color: rgba(227, 213, 184, 0.5);
+}
+
+/* ------------------
         Header
- -------------------*/
+ ------------------- */
 .header {
-    margin-top: 38px;
+    padding-top: 38px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-bottom: 85px    ;
 }
 
 .logo {
@@ -35,6 +50,110 @@
     color: #d03958;
     font-size: 88px;
     letter-spacing: -1.2px;
- }
+}
+
+/* Navigation */
+
+.header-nav {
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+
+.header-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 530px;
+}
+
+.header-nav ul li {
+
+}
+
+.header-nav ul li a {
+    height: 37px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1b1b1b;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.36px;
+    padding: 5px 11px;
+}
+
+.header-nav ul li a:hover {
+    background-color: #d03958;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+ /* ---------------
+        Section
+ ------------------ */
+
+.section {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Main Description */
+
+.main-description {
+    flex: 3; 
+}
+
+.main-description-title {
+    color: #d03958;
+    font-family: Montserrat;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+    letter-spacing: -1.8px;
+    padding-bottom: 47px;
+}
+
+.main-description-title .main-description-title2 {
+    color: #161616; 
+}
+
+.main-description-text {
+    color: #161616;
+    font-family: "PT Serif";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+}
+
+/* Registration Form */
+
+.registration-form {
+    height: 440px;
+    margin-left: 5%;
+    flex: 2;
+    background-color: #d03958;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.registration-form-title {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: -0.44px;
+}
+
+/* Доделай регистрационную форму */
+
+
 
 
