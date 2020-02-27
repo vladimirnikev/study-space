@@ -132,7 +132,7 @@
 /* Registration Form */
 
 .registration-form {
-    height: 440px;
+    height: 520px;
     margin-left: 5%;
     flex: 2;
     background-color: #d03958;
@@ -152,7 +152,48 @@
     letter-spacing: -0.44px;
 }
 
+.registration-accept {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.registration-form-title-button {
+    width: 85%;
+    height: 57px;
+    background-color: #161616;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: -0.44px;
+}
+
+.input-form {
+    width: 85%;
+    height: 57px;
+    border: none;
+    border-radius: 4px;
+    /* color: #b5b5b5; */
+    font-family: "PT Serif";
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.4px;
+    padding-left: 19px;
+}
+
+.registration-checkbox {
+    width: 19px;
+    height: 18px;
+}
+
+
+
 /* Доделай регистрационную форму */
+
+
 
 
 
