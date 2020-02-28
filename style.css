@@ -152,12 +152,6 @@
     letter-spacing: -0.44px;
 }
 
-.registration-accept {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-}
-
 .registration-form-title-button {
     width: 85%;
     height: 57px;
@@ -184,12 +178,35 @@
     padding-left: 19px;
 }
 
-.registration-checkbox {
-    width: 19px;
-    height: 18px;
+.registration-accept {
+    display: flex;
+    align-items: center;
 }
 
+.registration-checkbox {
+    display: none;
+}
 
+.registration-checkbox:checked + .custom-checkbox {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c2/Black_check.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-checkbox {
+    position: relative;
+    display: block;
+    width: 19px;
+    height: 18px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin-right: 20px;
+}
+
+/* .custom-checkbox:after {
+    content: '';
+    position: absolute;
+} */
 
 /* Доделай регистрационную форму */
 
