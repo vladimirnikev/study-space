@@ -170,7 +170,6 @@
     height: 57px;
     border: none;
     border-radius: 4px;
-    /* color: #b5b5b5; */
     font-family: "PT Serif";
     font-size: 20px;
     line-height: 25px;
@@ -193,6 +192,11 @@
     background-repeat: no-repeat;
 }
 
+/* Почему чекбокс сразу отмечен при перезагрузке страницы?
+Как работает свойство транзишин?
+Можно ли прятать чекбокс через дисплей:нон или лучше через позишин и опасити? */
+
+
 .custom-checkbox {
     position: relative;
     display: block;
@@ -203,12 +207,22 @@
     margin-right: 20px;
 }
 
-/* .custom-checkbox:after {
-    content: '';
-    position: absolute;
-} */
+.checkbox-text {
+    color: #ffffff;
+    font-family: "PT Serif";
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.4px;
+    font-weight: 400;
+}
 
-/* Доделай регистрационную форму */
+/* Сделай правильные вертикальные отступы для инпутов */
+
+
+/* --------------------
+        Article1
+ ---------------------- */
+
 
 
 
