@@ -610,6 +610,10 @@
         margin-top: 30px;
     }
 
+    .article-title {
+        font-size: 45px;
+    }
+
     .article1-footer {
         margin-top: 40px;
     }
@@ -618,7 +622,53 @@
         width: 60%;
     }
 
+    /* Article 3 */
 
+    .article3 .container {
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 25px;
+        align-items: flex-start;
+    }
+
+    .article3-group1-wrapper {
+        width: auto;
+    }
+
+    .article3-group1-text {
+        width: 70%;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .article3-group1-user {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .article3-group1, .article3-group2 {
+        min-height: 380px;
+    }
+
+    .article3-group2-wrapper {
+        width: auto;
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .article3-group2-wrapper img {
+        margin: 5px 5px;
+    }
+
+    .article3-group2 .article-title {
+        padding-bottom: 15px;
+    }
+
+    /* Footer */
+
+    .footer .container {
+        justify-content: space-around;
+    }
 }
 
 @media (max-width: 767px) {
@@ -714,6 +764,74 @@
         margin-top: 30px;
     }
     
+    /* Article 3 */
+
+    .article3 .container {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0;
+    }
+
+    .article3-group1, .article3-group2 {
+        min-height: auto;
+    }
+
+    .article3-group1 {
+        width: auto;
+    }
+
+    .article3-group1-wrapper {
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .article3-group1 .article-title {
+        padding-bottom: 20px;
+    }
+
+    .article3-group1-text, .article3-group1-user {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .article3-group1-wrapper img {
+        position: static;
+        transform: none;
+        order: -1;
+    }
+
+    .article3-group2 {
+        width: auto;
+        justify-content: flex-start;
+
+    }
+
+    .article3-group2 .article-title {
+        padding-bottom: 20px;
+    }
+
+    .article3-group2-wrapper {
+        padding-bottom: 15px;
+        height: auto;
+        justify-content: space-around;
+    }
+
+    .article3-group2-wrapper img {
+        margin: 5px 5px;
+    }
+
+    /* Footer */
+
+    .footer .container {
+        flex-direction: column;
+    }
+
+    .footer-text {
+        font-size: 18px;
+        text-align: center;
+    }
+
 }
 
 
