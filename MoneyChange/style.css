@@ -189,7 +189,7 @@
 }
 
 .converter-form-calculator-currency-list {
-    
+    cursor: pointer;
     margin-left: 10px;
 }
 
@@ -200,6 +200,14 @@
     line-height: 17px;
     color: #4E5983;
     text-transform: uppercase;
+}
+
+.converter-form-calculator-currency-list span:hover {
+    color: #21242d;
+}
+
+.converter-form-calculator-currency-list svg:hover {
+    
 }
 
 .converter-form-calculator-currency-img-wrapper {
