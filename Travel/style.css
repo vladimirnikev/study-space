@@ -33,19 +33,17 @@
         Header
  ------------------- */
 .header {
-    padding-top: 38px;
+    padding: 38px 0 85px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 85px    ;
 }
 
 .logo {
     text-decoration: none;
-    font-family: 'QuiteChocolatey';
     color: #d03958;
-    font-size: 88px;
     letter-spacing: -1.2px;
+    font: 88px 'QuiteChocolatey';
 }
 
 /* Navigation */
@@ -93,7 +91,7 @@
 /* Main Description */
 
 .main-description {
-    
+     
 }
 
 .main-description-title {
@@ -156,6 +154,12 @@
     font-size: 22px;
     text-transform: uppercase;
     letter-spacing: -0.44px;
+    cursor: pointer;
+}
+
+.registration-form-title-button:hover {
+    background-color: #383535;
+    transition: ease 0.3s;
 }
 
 .input-form {
@@ -234,7 +238,6 @@
     margin-top: 70px;
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
 }
 
 .cart {
